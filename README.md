@@ -28,7 +28,7 @@ user input, it's intended to return what a chatbot would say.
 There are four commands -- `hello`, `add`, `divide`, and `say`, and they should
 all be usable like your chatbot would be!
 
-(As an example, `get_chatbot_response('Hello')` should return `'Hey there!'`.)
+(As an example, `get_chatbot_response("Hello")` should return `"Hey there!"`.)
 
 Modify `tests/unit_tests.py` and write and run some unit tests that
 codify expected input/output combinations for this function.
