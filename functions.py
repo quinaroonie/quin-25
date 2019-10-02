@@ -3,8 +3,8 @@ def get_chatbot_response(message):
         return ''
 
     points, command, args = message.split(' ', 2)
-    if command == "hey":
-        return "What's Up!"
+    if command == "Hey":
+        return "What's up!"
     elif command == "add":
         num1, num2 = args.split()
         return num1 + num2
