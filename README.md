@@ -9,7 +9,7 @@ order to run them, tell Python to execute the `unit_tests` module inside `tests/
 
 ```
 vocstartsoft:~/environment $ cd lecture-19-unittests-review/
-vocstartsoft:~/environment/lecture-19-unittests-review (master) $ python -m tests/unit_tests
+vocstartsoft:~/environment/lecture-19-unittests-review (master) $ python -m tests.unit_tests
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
