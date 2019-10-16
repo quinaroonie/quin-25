@@ -10,7 +10,7 @@ def get_chatbot_response(message):
         return int(num1) + int(num2)
     elif command == "divide":
         num1, num2 = args.split()
-        return num1 / num2
+        return int(num1) / int(num2)
     elif command == "say":
         return args
     else:
